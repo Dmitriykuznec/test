@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px) {
+    .nav{
+        backdrop-filter: none;
+        background: none;
+        scale: 0;
+    }
+  .nav_items {
+    border-bottom: none;
+    flex-direction: column;
+  }
+  .header {
+
+  }
+}
