@@ -5,6 +5,10 @@ body {
   text-align: center;
 }
 
+.img_header_mob{
+    display: none;
+}
+
 html {
 scroll-behavior: smooth;
 }
@@ -40,11 +44,13 @@ scroll-behavior: smooth;
 .language_a{
     color: #828282;
     text-decoration: none;
+    transition: 0.7s;
 }
 
-.eng{
-    color: #000000;
+.language_active{
+color: #000000;
 }
+
 
 .img_header{
     width: 100%;
@@ -75,6 +81,10 @@ scroll-behavior: smooth;
     color: #828282;
     text-decoration: none;
     padding: 0px 20px;
+}
+
+.nav_link_active{
+    color: #000000;
 }
 
 .section_gray {
